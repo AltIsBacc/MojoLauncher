@@ -278,6 +278,11 @@ public class JREUtils {
                 useGles = true;
                 glesVersion = 3;
                 break;
+			case "opengles3_2_fogltlogles" :
+				renderLibrary = "libfogltlogles_rs.so";
+				useGles = true;
+				glesVersion = 3;
+				break;
             case "opengles2":
             case "opengles2_5":
             case "opengles3":
